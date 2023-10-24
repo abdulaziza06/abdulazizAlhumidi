@@ -1,0 +1,135 @@
+/* body CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+}
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+/* header CSS */
+header {
+  position: fixed;
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-family: Tahoma;
+  font-weight: bolder;
+  font-size: 20px;
+  text-align: center;
+  background-color: #148dd2;
+}
+
+header nav {
+  word-spacing: 120px;
+}
+
+header nav a {
+  color: white;
+  text-decoration: none;
+}
+
+header nav a:hover {
+  color: black;
+  transition: 0.7s;
+}
+
+#home {
+  word-spacing: normal;
+}
+
+@media (max-width: 1000px) {
+  header {
+    font-size: 20px;
+    width: 100%;
+  }
+  header nav {
+    word-spacing: 60px;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    font-size: 12px;
+    width: 100%;
+  }
+  header nav {
+    word-spacing: 11px;
+  }
+  .footerBottom {
+    margin-top: 10px;
+    padding-bottom: 11px;
+  }
+  .socialIcons a i {
+    font-size: 1em;
+  }
+}
+
+/* footer CSS */
+footer {
+  margin-top: auto;
+  width: 100%;
+  background-color: #1f1f1f;
+}
+
+.socialIcons {
+  display: flex;
+  justify-content: center;
+}
+
+.socialIcons a {
+  text-decoration: none;
+  padding: 13px;
+  margin: 11px;
+  background-color: white;
+  border-radius: 50%;
+}
+.socialIcons a:hover {
+  background-color: black;
+  transition: 1s;
+}
+.socialIcons a:hover i {
+  color: white;
+  transition: o.5s;
+}
+.socialIcons a i {
+  font-size: 1em;
+}
+
+.pink {
+  color: #fe0291;
+}
+
+.yellow {
+  color: yellow;
+}
+
+.red {
+  color: #fe0000;
+}
+
+.black {
+  color: black;
+}
+
+.green {
+  color: #37e056;
+}
+
+.footerBottom {
+  margin-top: 10px;
+  padding-bottom: 10px;
+  color: white;
+  text-align: center;
+  font-family: Tahoma;
+}
+
+span {
+  font-weight: bold;
+}
