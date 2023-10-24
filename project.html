@@ -1,0 +1,289 @@
+<!--Assignment1-->
+<!--Name: Abdulaziz Ali Ahumidi-->
+<!--ID: 2141075-->
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+  <head>
+    <!-- page title -->
+    <title>عبدالعزيز الحميدي</title>
+
+    <!-- meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="A brief biography of Abdulaziz Al-Hamidi"
+    />
+    <meta name="keywords" content="Abdulaziz, Al-Hamidi, cv, Portfolio" />
+    <meta name="author" content="Abdulaziz Al-Hamidi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+
+    <link
+      rel="icon"
+      href="media/4206649_clipboard_curriculum_cv_document_paper_icon.svg"
+    />
+
+    <!-- Files needed -->
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/scripts.js" defer></script>
+
+    <!-- style -->
+    <style>
+      main {
+        margin-top: 60px;
+        width: 100%;
+      }
+      h1 {
+        padding-top: 50px;
+        text-align: center;
+        font-family: Arial;
+      }
+
+      /* project 1 */
+      .pharmacy {
+        margin: 20px;
+        max-width: 700px;
+        border: solid 3px black;
+      }
+      .pimgs {
+        padding-top: 30px;
+      }
+      .pharmacyImgs {
+        display: grid;
+        justify-content: center;
+      }
+      .description {
+        padding-bottom: 50px;
+      }
+      .description p {
+        font-size: 30px;
+        padding-right: 40px;
+        padding-top: 20px;
+      }
+      .description ul {
+        font-size: 30px;
+        padding-right: 100px;
+        padding-bottom: 20px;
+      }
+      .description span {
+        font-size: 30px;
+        padding-right: 40px;
+        font-weight: normal;
+      }
+      .description span a {
+        font-size: 30px;
+        text-decoration: none;
+        color: #000000;
+      }
+      .description span a:hover {
+        color: blue;
+      }
+
+      /* project 2 */
+      .book {
+        max-width: 250px;
+        margin: 10px;
+        border: solid 10px black;
+      }
+      .bookImgs {
+        padding-top: 40px;
+        display: flex;
+        justify-content: center;
+      }
+
+      @media (max-width: 1500px) {
+        .pharmacy {
+          margin: 20px;
+          display: block;
+          justify-content: center;
+          max-width: 650px;
+        }
+        .pharmacyImgs {
+          padding-top: 30px;
+        }
+        .book {
+          display: block;
+          max-width: 220px;
+        }
+      }
+
+      @media (max-width: 700px) {
+        .pharmacy {
+          margin: 20px;
+          display: block;
+          justify-content: center;
+          max-width: 310px;
+        }
+        .book {
+          display: block;
+          max-width: 150px;
+          border: solid 7px black;
+        }
+        .pharmacyImgs {
+          padding-top: 30px;
+        }
+        .description p {
+          font-size: 20px;
+          padding-right: 15px;
+          padding-left: 15px;
+        }
+        .description ul {
+          font-size: 20px;
+          padding-right: 60px;
+        }
+        .description span {
+          font-size: 20px;
+          padding-right: 15px;
+        }
+        .description span a {
+          font-size: 20px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- main content -->
+    <!-- header -->
+    <header>
+      <nav>
+        <a href="index.html" id="home">
+          <i class="bi bi-house"></i>الصفحة الرئيسية</a
+        >
+        <a href="aboutMe.html"><i class="bi bi-person"></i>عبدالعزيز</a>
+        <a href="project.html"><i class="bi bi-laptop"></i>مشاريعي</a>
+      </nav>
+    </header>
+
+    <!-- main-->
+    <main>
+      <!-- project 1 -->
+      <div class="PharmacyWarehouse">
+        <h1>المشروع الاول: مستودع صيدلية</h1>
+        <div class="pharmacyImgs">
+          <div class="pimgs">
+            <img
+              src="media/pharmacy1.jpg"
+              alt="صورة تسجيل دخول لي تطبيق ادارة مستودع صيديلة"
+              class="pharmacy"
+            />
+            <img
+              src="media/pharmacy2.jpg"
+              alt="صورة لي الصفحة الرئيسية في التطبيق تعرض الاغراض التي في المستودع "
+              class="pharmacy"
+            />
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            مشروع لإدارة ادوية الصيدلية عن طريق حذف واضافة الادوية والبحث عنها
+            ويشترط عند اضافة الدواء اضافة مجموعه من الخصائص منها:
+          </p>
+          <ul>
+            <li>المعرف</li>
+            <li>الاسم</li>
+            <li>الوزن</li>
+            <li>السعر</li>
+            <li>الكمية</li>
+          </ul>
+          <span
+            >رابط المشروع:
+            <a href="https://github.com/abdulaziza06/MyRepo" target="_blank"
+              >GitHub <i class="bi bi-github"></i></a
+          ></span>
+        </div>
+      </div>
+
+      <!-- project 2 -->
+      <div>
+        <h1>المشروع الثاني: كتب صوتية</h1>
+        <div class="bookImgs">
+          <div class="bimgs">
+            <img
+              src="media/book1.jpg"
+              alt="صورة اول ما تشغل التطبيقة تظهر فيها شعار واسم التطبيق "
+              class="book"
+            />
+            <img
+              src="media/book2.jpg"
+              alt="صورة الصفحة الرئيسة لي التطبيق تظهر فيها الكتب المتاحه "
+              class="book"
+            />
+          </div>
+          <div>
+            <img
+              src="media/book3.jpg"
+              alt="صورة تظهر فيها انواع الكتب التي في التطبيق"
+              class="book"
+            />
+            <img
+              src="media/book4.jpg"
+              alt="صورة تحتوي على واجهة تشغيل الكتب الصوتية"
+              class="book"
+            />
+          </div>
+        </div>
+        <div class="description">
+          <p>
+            برنامج كتب صوتية يحتوي على العديد من انواع الكتب ويدعم الاشخاص ذوي
+            الاعاقة من انواع الكتب الموجودة:
+          </p>
+          <ul>
+            <li>العلوم</li>
+            <li>تطوير الذات</li>
+            <li>التاريخ</li>
+            <li>الفن</li>
+          </ul>
+        </div>
+      </div>
+    </main>
+
+    <!-- footer -->
+    <footer>
+      <div class="socialIcons">
+        <!-- instagram -->
+        <a
+          href="https://www.instagram.com/xazooozex/"
+          target="_blank"
+          class="pink"
+          ><i class="bi bi-instagram"></i
+        ></a>
+        <!-- Whatsapp -->
+        <a href="tel:+966505406459" target="_blank" class="green">
+          <i class="bi bi-whatsapp"></i>
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/abdulaziza06" target="_blank" class="black">
+          <i class="bi bi-github"></i>
+        </a>
+        <!-- snapchat -->
+        <a
+          href="https://www.snapchat.com/add/snickers_x7?share_id=_xDkaB_yTRc&locale=ar-AE"
+          target="_blank"
+          class="yellow"
+          ><i class="bi bi-snapchat"></i
+        ></a>
+        <!-- twitter- -->
+        <a href="https://twitter.com/alhumaidi_06" target="_blank" class="black"
+          ><i class="bi bi-twitter-x"></i
+        ></a>
+        <!-- Enail -->
+        <a
+          href="mailto:abdulazizalhumidi06@gmail.com"
+          target="_blank"
+          class="red"
+          ><i class="bi bi-envelope-at"></i
+        ></a>
+      </div>
+      <div class="footerBottom">
+        <p>copyright &copy;2023; Designed by <span>Abdulaziz Alhumidi</span></p>
+      </div>
+    </footer>
+  </body>
+</html>
